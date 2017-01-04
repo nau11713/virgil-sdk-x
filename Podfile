@@ -6,6 +6,7 @@ target 'VirgilSDK iOS' do
 	pod 'VirgilCrypto', '~> 2.0.0'
 
     target 'VirgilSDKTests' do
+    	pod 'URLMock'
         inherit! :search_paths
     end
 
